@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  App.xaml.cpp
+  MainPage.xaml.cpp
+  XamlTypeInfo.Impl.g.cpp
+  XamlTypeInfo.g.cpp
+     Creating library C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.lib and object C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.exp
+  TillPlatform.vcxproj -> C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.exe

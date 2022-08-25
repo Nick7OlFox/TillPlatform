@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-QCRHGTH</Machine>
+    <WindowsUser>Bruno</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>1a675a09-85a8-4619-aae5-bbc6985cc718</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Bruno</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A5AB4935CF76E14967740CEA0BFBAD23D8C72AD49634FCD8AA07541453562BDB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1a675a09-85a8-4619-aae5-bbc6985cc718_1.0.0.0_x64__73nr6b5p9v3r0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1a675a09-85a8-4619-aae5-bbc6985cc718_73nr6b5p9v3r0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1a675a09-85a8-4619-aae5-bbc6985cc718</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Bruno</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-25T19:09:12.616</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.exe">
+      <PackagePath>TillPlatform.exe</PackagePath>
+      <Modified>2022-08-25T19:09:12.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.winmd">
+      <PackagePath>TillPlatform.winmd</PackagePath>
+      <Modified>2022-08-25T19:09:09.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-08-24T22:51:35.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-24T22:51:35.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-24T22:51:35.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-24T22:51:35.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-24T22:51:35.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-24T22:51:35.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-08-24T22:51:35.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-08-25T19:09:09.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-08-25T19:09:09.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-02T04:31:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-08-25T19:09:12.578</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
