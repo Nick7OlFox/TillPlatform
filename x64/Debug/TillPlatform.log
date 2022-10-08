@@ -1,7 +1,108 @@
-﻿  pch.cpp
-  App.xaml.cpp
-  MainPage.xaml.cpp
-  XamlTypeInfo.Impl.g.cpp
-  XamlTypeInfo.g.cpp
-     Creating library C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.lib and object C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.exp
-  TillPlatform.vcxproj -> C:\Users\Bruno\Desktop\TillPlatform\x64\Debug\TillPlatform\TillPlatform.exe
+﻿  Basket.cpp
+C:\Users\Bruno\Desktop\TillPlatform\Item.h(6,1): error C2011: 'Item': 'class' type redefinition
+C:\Users\Bruno\Desktop\TillPlatform\Item.h(5): message : see declaration of 'Item'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(793,1): error C2528: 'pointer': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(612): message : see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(706): message : see reference to class template instantiation 'std::_Default_allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Item &>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(502): message : see reference to class template instantiation 'std::allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Item &>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(502): message : see reference to alias template instantiation 'std::_Rebind_alloc_t<_Alloc,_Ty>' being compiled
+          with
+          [
+              _Alloc=std::allocator<Item &>,
+              _Ty=Item &
+          ]
+C:\Users\Bruno\Desktop\TillPlatform\Basket.h(11): message : see reference to class template instantiation 'std::vector<Item &,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(794,1): error C2528: 'const_pointer': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(812,1): error C2528: 'address': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(816,1): error C2528: 'address': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(829,1): error C2528: '_Ptr': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(835,1): error C2528: 'allocate': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(848,1): error C2528: 'allocate': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(614,1): error C2528: 'abstract declarator': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(615,1): error C2528: 'abstract declarator': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(634,1): error C2528: '<template-parameter>': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(648,1): error C2528: '<template-parameter>': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(741,1): error C2528: 'abstract declarator': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(666): message : see reference to variable template 'const bool _Is_simple_alloc_v<std::allocator<Item &> >' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(741,1): error C2528: '<template-parameter>': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(742,1): error C2528: 'abstract declarator': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(742,1): error C2528: '<template-parameter>': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(667,88): error C2528: '<template-parameter>': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(916,1): error C2535: 'void std::vector<Item &,std::allocator<_Ty>>::push_back(_Ty)': member function already defined or declared
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(912): message : see declaration of 'std::vector<Item &,std::allocator<_Ty>>::push_back'
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(959,1): error C2535: 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Ty)': member function already defined or declared
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(955): message : see declaration of 'std::vector<Item &,std::allocator<_Ty>>::insert'
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1648,1): error C2528: 'data': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1652,1): error C2528: 'data': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(750,1): error C2528: 'abstract declarator': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(384): message : see reference to class template instantiation 'std::_Simple_types<_Ty>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(1368): message : see reference to class template instantiation 'std::_Vector_val<std::_Simple_types<_Ty>>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(2061): message : see reference to class template instantiation 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(751,1): error C2528: 'abstract declarator': you cannot create a pointer to a reference
+C:\Users\Bruno\Desktop\TillPlatform\Basket.cpp(23,21): error C2027: use of undefined type 'Item'
+C:\Users\Bruno\Desktop\TillPlatform\Item.h(5): message : see declaration of 'Item'
+C:\Users\Bruno\Desktop\TillPlatform\Basket.cpp(31,6): error C2027: use of undefined type 'Item'
+C:\Users\Bruno\Desktop\TillPlatform\Item.h(5): message : see declaration of 'Item'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(200,1): error C2528: '_Unwrapped': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(246): message : see reference to class template instantiation 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Users\Bruno\Desktop\TillPlatform\Basket.cpp(34): message : see reference to class template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' being compiled
+          with
+          [
+              _Ty=Item &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(204,1): error C2528: '_It': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(328,1): error C2528: '_Unwrapped': you cannot create a pointer to a reference
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(846,28): error C2139: 'Item': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_nothrow_assignable'
+C:\Users\Bruno\Desktop\TillPlatform\Item.h(5): message : see declaration of 'Item'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1579): message : see reference to variable template 'const bool is_nothrow_move_assignable_v<Item &>' being compiled
+C:\Users\Bruno\Desktop\TillPlatform\Basket.cpp(36,23): error C2027: use of undefined type 'Item'
+C:\Users\Bruno\Desktop\TillPlatform\Item.h(5): message : see declaration of 'Item'
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(486,5): error MSB4181: The "CompileXaml" task returned false but did not log an error.

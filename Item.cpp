@@ -16,6 +16,22 @@ Item::~Item()
 	cout << "Item with barcode " << this->barcode << " destroid." << endl;
 }
 
+// Item Price
+float Item::ItemPrice()
+{
+	return this->price;
+}
+
+// Check if the barcode for another item is the same
+bool Item::IsBarcodeSame(Item& fItem)
+{
+	bool result;
+
+	result = (fItem.barcode == this->barcode)? true: false;
+
+	return result;
+}
+
 // Modify Price
 void Item::Modify(float newPrice)
 {
